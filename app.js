@@ -1,6 +1,6 @@
 import express from "express";
 import router from "./src/routes/routesMain.js";
-
+// sim
 const app = express();
 
 app.use(express.json());
