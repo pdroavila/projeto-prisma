@@ -1,7 +1,7 @@
 import express from "express";
 import router from "./src/routes/routesMain.js";
 const app = express();
-
+///teste
 app.use(express.json());
 app.use("/users", router);
 
